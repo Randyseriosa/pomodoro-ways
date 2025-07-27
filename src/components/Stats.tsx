@@ -39,7 +39,7 @@ export const Stats: React.FC<StatsProps> = ({ stats }) => {
   ];
 
   return (
-    <div className="mt-12">
+    <div className="mt-1">
       <h3 className="text-lg font-medium text-slate-800 dark:text-slate-200 mb-6 text-center">
         Statistics
       </h3>

@@ -80,10 +80,10 @@ function App() {
       <div className="container mx-auto px-4 py-8 max-w-4xl">
         {/* Header */}
         <header className="text-center mb-12">
-          <h1 className="text-3xl font-light text-slate-900 dark:text-slate-100 mb-2">
+          <h1 className="text-3xl font-light text-slate-700 dark:text-slate-400 mb-2">
             Pomodoro Timer
           </h1>
-          <p className="text-slate-700 dark:text-slate-400">
+          <p className="text-slate-700 dark:tet-slate-400">
             Focus • Break • Repeat
           </p>
           <button
