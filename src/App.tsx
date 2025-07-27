@@ -67,7 +67,7 @@ function App() {
       return `${minutes.toString().padStart(2, '0')}:${remainingSeconds.toString().padStart(2, '0')}`;
     };
 
-    const phaseEmoji = state.currentPhase === 'focus' ? '🍅' : state.currentPhase === 'shortBreak' ? '🌱' : '🎉';
+    const phaseEmoji = state.currentPhase === 'focus' ? '📖' : state.currentPhase === 'shortBreak' ? '🌱' : '🎉';
     document.title = `${phaseEmoji} ${formatTime(state.timeLeft)} - Pomodoro Timer`;
   }, [state.timeLeft, state.currentPhase]);
 
