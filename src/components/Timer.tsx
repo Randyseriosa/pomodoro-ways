@@ -27,7 +27,7 @@ const getPhaseLabel = (phase: TimerPhase): string => {
 const getPhaseEmoji = (phase: TimerPhase): string => {
   switch (phase) {
     case 'focus':
-      return '🍅';
+      return '📖';
     case 'shortBreak':
       return '🌱';
     case 'longBreak':
